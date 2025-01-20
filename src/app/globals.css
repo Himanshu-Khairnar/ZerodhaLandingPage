@@ -4,7 +4,7 @@
 /* 
 :root {
   --background: #ffffff;
-  --foreground: #000000;
+  --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,9 +19,3 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 } */
-
-
-.container{
-  @apply px-[14%] w-full text-[#424242] bg-white/90   py-[1%] ;
-
-}
