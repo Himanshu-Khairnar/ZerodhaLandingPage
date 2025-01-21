@@ -26,8 +26,8 @@ export default function EcoSystem() {
       <div className="w-[450px]">
               <h1 className='font-semibold text-[35px] text-[#424242] mb-10'>Trust with confidence </h1>
               {
-                  data.map((item) => (
-                      <div>
+                  data.map((item,index) => (
+                      <div key={index}>
                           <h1 className='font-semibold text-[22px] text-[#424242] my-2'>{item.heading}</h1>
                           <p className='text-[#666666] text-[18px] mb-[20px]'>{item.desc}</p>
                       </div>
