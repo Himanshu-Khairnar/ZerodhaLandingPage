@@ -11,7 +11,7 @@ export default function Header() {
                 <Image src="/logo.svg" alt="logo" width={100} height={100} className="w-[120px]" />
             </div>
 
-            <div className="hidden md:flex gap-[40px] text-[14.4px]">
+            <div className="hidden md:flex gap-[40px] text-[16px] ">
                 <Link href="/" className="hover:text-blue-500">
                     Signup
                 </Link>
@@ -27,10 +27,11 @@ export default function Header() {
                 <Link href="/" className="hover:text-blue-500">
                     Support
                 </Link>
-                <Menu className="w-6 h-6 text-[#666666] hover:text-blue-500" />
+                <Menu className="w-6 h-6 text-[#666666] " />
             </div>
 
             <div className="flex md:hidden">
+                <Menu className="w-6 h-6 text-[#666666] " />
             </div>
         </div>
     );
