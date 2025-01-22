@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 export default function SignUp() {
   return (
-    <div className="flex flex-col gap-6 px-[14%] py-[1.5%] justify-center items-center" >
+    <div className="flex flex-col gap-6 px-[14%] py-[1.5%] justify-center items-center border-b-[1px]" >
       <h1 className="font-semibold text-[35px] text-[#424242]">
         {" "}
         Open a Zerodha account

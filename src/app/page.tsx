@@ -1,4 +1,6 @@
+import Aboutus from '@/Components/Aboutus'
 import EcoSystem from '@/Components/EcoSystem'
+import Footer from '@/Components/Footer'
 import LandingComponents from '@/Components/LandingComponents'
 import Pricing from '@/Components/Pricing'
 import SignUp from '@/Components/SignUp'
@@ -13,6 +15,8 @@ export default function page() {
       <Pricing/>
       <Varsity/>
       <SignUp/>
+      <Footer/>
+      <Aboutus/>
     </div>
   )
 }
